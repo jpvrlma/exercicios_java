@@ -12,14 +12,14 @@ public class pecas {
         Scanner scanner = new Scanner(System.in);
 
         int codigoP1 = scanner.nextInt();
-        int nnumeroP1 = scanner.nextInt();
+        int numeroP1 = scanner.nextInt();
         double valorPeca1 = scanner.nextDouble();
 
         int codigoP2 = scanner.nextInt();
         int numeroP2 = scanner.nextInt();
         double valorPeca2 = scanner.nextDouble();
 
-        double soma = nnumeroP1 * valorPeca1 + numeroP2 * valorPeca2;
+        double soma = numeroP1 * valorPeca1 + numeroP2 * valorPeca2;
 
         System.out.printf("VALOR A PAGAR = R$ %.2f%n",soma);
         scanner.close();
