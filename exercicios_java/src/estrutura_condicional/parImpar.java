@@ -1,5 +1,7 @@
 package estrutura_condicional;
+
 //Fazer um programa para ler um número inteiro e dizer se este número é par ou ímpar.
+
 import java.util.Scanner;
 
 public class parImpar {

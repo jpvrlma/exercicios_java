@@ -20,5 +20,6 @@ public class menorMaior {
         } else {
             System.out.println("NÚMEROS IGUAIS");
         }
+        scanner.close();
     }
 }

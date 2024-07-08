@@ -26,6 +26,6 @@ public class lisarb {
         else {
             System.out.printf("R$ %.2f%n", imposto);
         }
-
+        scanner.close();
     }
 }

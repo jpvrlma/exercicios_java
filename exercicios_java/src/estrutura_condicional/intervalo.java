@@ -22,5 +22,6 @@ public class intervalo {
         }else {
             System.out.println("Intervalo [75,100]");
         }
+        scanner.close();
     }
 }

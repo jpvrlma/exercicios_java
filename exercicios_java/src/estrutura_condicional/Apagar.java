@@ -25,5 +25,6 @@ public class Apagar {
             valorApagar = quantidade * 1.50;
         }
         System.out.printf("VALOR A PAGAR: R$ %.2f%n" ,valorApagar);
+        scanner.close();
     }
 }

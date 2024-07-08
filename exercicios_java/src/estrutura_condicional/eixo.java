@@ -32,5 +32,6 @@ public class eixo {
         }else {
             System.out.println("Q4");
         }
+        scanner.close();
     }
 }
